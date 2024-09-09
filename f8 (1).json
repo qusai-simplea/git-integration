@@ -4,7 +4,7 @@
   },
   "@graph": [
     {
-      "@id": "sampleType1",
+      "@id": "sampleType1-modified",
       "@type": "rdfs:class",
       "rdfs:comment": "This is a sample json-ld object that will be considered a type due to having the rdfs:class value in the @type property",
       "rdfs:label": "Sample Type 1",
