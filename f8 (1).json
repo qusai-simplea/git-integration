@@ -48,6 +48,8 @@
       "rdfs:label": "Sample Taxonomy Parent",
       "isrequired": "sms:true"
     },
-    {}
+    {
+      "@id": "new type"
+    }
   ]
 }
