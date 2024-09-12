@@ -16,6 +16,35 @@
       "isrequired": "sms:false"
     },
     {
+      "@id": "t3"
+    },
+    {
+      "@id": "sampleType1-modified",
+      "@type": "rdfs:class",
+      "rdfs:comment": "This is a sample json-ld object that will be considered a type due to having the rdfs:class value in the @type property",
+      "rdfs:label": "Sample Type 1",
+      "isrequired": "sms:true"
+    },
+    {
+      "@id": "t2"
+    },
+    {
+      "@id": "sampleTaxonomyParent",
+      "@type": "rdfs:Class",
+      "rdfs:comment": "his is a sample json-ld object that will be considered a taxonmy due to having the rdfs:class value in the @type property AND the schemaEnumeration in the subClassOf",
+      "rdfs:label": "Sample Taxonomy Parent",
+      "isrequired": "sms:true"
+    },
+    {
+      "@id": "t1"
+    },
+    {
+      "@id": "new type"
+    },
+    {
+      "@id": "new type id"
+    },
+    {
       "@id": "sampleElement1",
       "@type": "rdf:property",
       "rdfs:comment": "This is a sample json-ld object that will be considered an element due to having the rdf:property value in the @type property, it will also connect to sampleType1 due to having the domainIncludes",
@@ -28,13 +57,6 @@
       "isrequired": "sms:true"
     },
     {
-      "@id": "sampleTaxonomyParent",
-      "@type": "rdfs:Class",
-      "rdfs:comment": "his is a sample json-ld object that will be considered a taxonmy due to having the rdfs:class value in the @type property AND the schemaEnumeration in the subClassOf",
-      "rdfs:label": "Sample Taxonomy Parent",
-      "isrequired": "sms:true"
-    },
-    {
       "@id": "sampleTaxonomyChild",
       "@type": "sampleTaxonomyParent",
       "rdfs:comment": "his is a sample json-ld object that will be considered a taxonmy due to having the sampleTaxonomyParent value in the @type property it will be set by default to be the child of that taxonomy",
@@ -42,26 +64,7 @@
       "isrequired": "sms:false"
     },
     {
-      "@id": "new type"
-    },
-    {
-      "@id": "sampleType1-modified",
-      "@type": "rdfs:class",
-      "rdfs:comment": "This is a sample json-ld object that will be considered a type due to having the rdfs:class value in the @type property",
-      "rdfs:label": "Sample Type 1",
-      "isrequired": "sms:true"
-    },
-    {
-      "@id": "new type id"
-    },
-    {
-      "@id": "t1"
-    },
-    {
-      "@id": "t2"
-    },
-    {
-      "@id": "t3"
+      "@id": "new t1"
     }
   ]
 }
