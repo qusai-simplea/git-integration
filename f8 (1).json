@@ -16,17 +16,11 @@
       "isrequired": "sms:false"
     },
     {
-      "@id": "t3"
-    },
-    {
       "@id": "sampleType1-modified",
       "@type": "rdfs:class",
       "rdfs:comment": "This is a sample json-ld object that will be considered a type due to having the rdfs:class value in the @type property",
       "rdfs:label": "Sample Type 1",
       "isrequired": "sms:true"
-    },
-    {
-      "@id": "t2"
     },
     {
       "@id": "sampleTaxonomyParent",
@@ -36,10 +30,16 @@
       "isrequired": "sms:true"
     },
     {
+      "@id": "t2"
+    },
+    {
       "@id": "t1"
     },
     {
       "@id": "new type"
+    },
+    {
+      "@id": "t3"
     },
     {
       "@id": "new type id"
@@ -77,6 +77,9 @@
     },
     {
       "@id": "type"
+    },
+    {
+      "@id": "type 1"
     }
   ]
 }
