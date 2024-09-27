@@ -30,6 +30,13 @@
       "isrequired": "sms:true"
     },
     {
+      "@id": "sampleType1",
+      "@type": "rdfs:class",
+      "rdfs:comment": "This is a sample json-ld object that will be considered a type due to having the rdfs:class value in the @type property",
+      "rdfs:label": "Sample Type 1",
+      "isrequired": "sms:true"
+    },
+    {
       "@id": "sampleType2",
       "@type": "rdfs:class",
       "rdfs:comment": "This is a sample json-ld object that will be considered a type due to having the rdfs:class value in the @type property, it will also be a subClassOf sampleType1",
@@ -40,13 +47,6 @@
         }
       ],
       "isrequired": "sms:false"
-    },
-    {
-      "@id": "sampleType1",
-      "@type": "rdfs:class",
-      "rdfs:comment": "This is a sample json-ld object that will be considered a type due to having the rdfs:class value in the @type property",
-      "rdfs:label": "Sample Type 1",
-      "isrequired": "sms:true"
     }
   ]
 }
