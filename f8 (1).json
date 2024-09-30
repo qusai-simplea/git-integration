@@ -2,51 +2,5 @@
   "@context": {
     "schema": "http://schema.org/"
   },
-  "@graph": [
-    {
-      "@id": "sampleElement1",
-      "@type": "rdf:property",
-      "rdfs:comment": "This is a sample json-ld object that will be considered an element due to having the rdf:property value in the @type property, it will also connect to sampleType1 due to having the domainIncludes",
-      "rdfs:label": "Sample Element 1",
-      "schema:domainIncludes": [
-        {
-          "@id": "sampleType1"
-        }
-      ],
-      "isrequired": "sms:true"
-    },
-    {
-      "@id": "sampleTaxonomyChild",
-      "@type": "sampleTaxonomyParent",
-      "rdfs:comment": "his is a sample json-ld object that will be considered a taxonmy due to having the sampleTaxonomyParent value in the @type property it will be set by default to be the child of that taxonomy",
-      "rdfs:label": "Sample Taxonomy Child",
-      "isrequired": "sms:false"
-    },
-    {
-      "@id": "sampleTaxonomyParent",
-      "@type": "rdfs:Class",
-      "rdfs:comment": "his is a sample json-ld object that will be considered a taxonmy due to having the rdfs:class value in the @type property AND the schemaEnumeration in the subClassOf",
-      "rdfs:label": "Sample Taxonomy Parent",
-      "isrequired": "sms:true"
-    },
-    {
-      "@id": "sampleType1",
-      "@type": "rdfs:class",
-      "rdfs:comment": "This is a sample json-ld object that will be considered a type due to having the rdfs:class value in the @type property",
-      "rdfs:label": "Sample Type 1",
-      "isrequired": "sms:true"
-    },
-    {
-      "@id": "sampleType2",
-      "@type": "rdfs:class",
-      "rdfs:comment": "This is a sample json-ld object that will be considered a type due to having the rdfs:class value in the @type property, it will also be a subClassOf sampleType1",
-      "rdfs:label": "Sample Type 2",
-      "rdfs:subClassOf": [
-        {
-          "@id": "sampleType1"
-        }
-      ],
-      "isrequired": "sms:false"
-    }
-  ]
+  "@graph": []
 }
