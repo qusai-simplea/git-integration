@@ -33,12 +33,6 @@
       "rdfs:subClassOf": [
         {
           "@id": "sampleType1"
-        },
-        {
-          "@id": "sampleType2"
-        },
-        {
-          "@id": "sampleType2"
         }
       ],
       "isrequired": "sms:false"
