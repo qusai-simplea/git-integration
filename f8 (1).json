@@ -48,7 +48,11 @@
       ],
       "isrequired": "sms:false"
     },
-    {},
-    {}
+    {
+      "@id": "new type 1"
+    },
+    {
+      "@id": "new type 2"
+    }
   ]
 }
